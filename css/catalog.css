@@ -1,0 +1,57 @@
+.dropdown-menu {
+    width: 300px; /* Змініть потрібну ширину */
+}
+        .catalog-form {
+            display: none;
+            position: absolute;
+            top: 70%;
+            left: 0;
+            z-index: 4000;
+            width: 100%;
+            background-color: white;
+            border-radius: 0 0 20px 20px; 
+            border-top: none;
+            padding: 60px;
+            box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
+            pointer-events: auto; 
+        }
+
+        .nav-item:hover .catalog-form {
+            display: block;
+        }
+
+        .catalog-container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .catalog-item {
+            padding: 90px;
+            display: flex;
+            align-items: center;
+        }
+
+        .catalog-item a {
+
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .catalog-item a:hover {
+            color: #000000;
+        }
+
+        .nav-item.dropdown {
+            position: relative;
+        }
+
+        .catalog-form {
+            width: auto;
+            right: 0;
+            left: auto;
+            margin-top: 15px;
+        }
+
+        .list-group{
+          width: 290px;
+        }
